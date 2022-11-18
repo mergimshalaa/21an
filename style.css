@@ -1,0 +1,19 @@
+body {
+    background-color: darkgreen;
+}
+
+
+.container {
+    width: 450px;
+    height: 250px;
+    margin: 50px;
+    outline: solid 3px black;
+    margin-left: 35%;
+    background-color: rgb(135, 117, 117);
+}
+
+button {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
