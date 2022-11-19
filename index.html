@@ -6,16 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>21an</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./main.js"></script>
+    <script defer src="./main.js"></script>
 </head>
 <body>
-    <div class="container">
         <h1>Välkommen till Mergims 21a!</h1>
-        <p>Redo för en runda?</p>
-        <p>Kort:</p>
-        <p>Totalt:</p>
-        <button>PLAY</button>
-        <button>NYTT KORT</button>
-    </div>
+        <p id="play-time">Redo för en runda?</p>
+        <p id="card">Kort:</p>
+        <p id="totaly">Totalt:</p>
+        <button onclick="getPlayMe()">PLAY</button>
+        <button onclick="getNewCard()">NYTT KORT</button>
+        <p id="player"></p>
 </body>
 </html>
